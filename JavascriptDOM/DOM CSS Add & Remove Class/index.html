@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>hello</h1>
+    <link rel="stylesheet" href="stlye.css" />
+  </head>
+  <body>
+    <div id="box">
+      <p><b>โปรแกรม จำลองการ(เพิ่ม / ลบ / สลับ) คลาส</b></p>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+        excepturi beatae! Fugit deleniti doloribus deserunt fugiat enim dolorem
+        ullam! Error nobis cumque vitae, aperiam consequuntur fuga at tempore
+        illo dolorem.
+      </p>
+    </div>
+    <hr>
+    <div class="box2">
+       <h3 class="header">DOM CSS Add & Remove Class</h3>
+       <p class="msg"> 
+        การเพิ่ม คลาส
+            <ul>
+                <li>เข้าถึง tag ที่จะทำการเพิ่มคลาส</li>
+                <li>เรียกใช้ฟังชัน valueName.classList.add('tageName')</li>
+                <li>สามารถเช็คผ่าน Inspect(F12) ว่าได้ทำการเพิ่ม คลาสหรือยัง?</li>
+            </ul> 
+       </p>
+      <button class="btn1" onclick="addDarkmode()">clssLits.add</button>
+    </div>
+    <div class="box3">
+        <p class="msg"> 
+         การเพิ่ม ลบ
+             <ul>
+                 <li>เข้าถึง tag ที่จะทำการลบคลาส</li>
+                 <li>เรียกใช้ฟังชัน valueName.classList.remove('tageName')</li>
+                 <li>สามารถเช็คผ่าน Inspect(F12) ว่าได้ทำการลบ คลาสหรือยัง?</li>
+             </ul> 
+        </p>
+        <button class="btn2" onclick="removeDarkmode()">classList.remove</button>
+     </div>
+     <div class="box3">
+        <p class="msg"> 
+         การเพิ่ม ลบ
+             <ul>
+                 <li>เข้าถึง tag ที่จะทำการสลับคลาส</li>
+                 <li>เรียกใช้ฟังชัน valueName.classList.toggle('tageName')</li>
+                 <li>สามารถเช็คผ่าน Inspect(F12) ได้</li>
+             </ul> 
+        </p>
+        <button class="btn3" onclick="swichMod()">classList.toggle(doubleclick)</button>        
+     </div>
+    
+
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
