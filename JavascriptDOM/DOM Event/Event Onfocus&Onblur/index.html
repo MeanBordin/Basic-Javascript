@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 style="color: blue;">การใช้งาน Event</h2>
+    <ul>
+        <li>Onfocus</li>
+        <li>Onblur</li>
+    </ul>
+
+    <div class="box1">
+        <h4>example with input tag</h4>
+        <ul>
+            <li>this event onfocus only</li>
+            <li>your can try cersor click input box</li>
+        </ul>
+        <input type="text" id="ipt" placeholder="enter your name" 
+        onfocus="chgbackground(this)" style="margin-left: 40px;"><br>
+    <!-- this เป็นการโยน obj เข้ามาในฟังก์ชัน -->
+    </div>
+    <br><br>
+    
+    <hr>
+    
+    <div class="box2">
+        <h4>example with textarea tag</h4>
+        <ul>
+            <li>this event onfocus and onblur</li>
+            <li>your can try cersor click in textarea box and out textarea box</li>
+        </ul>
+        <textarea name="" id="" cols="30" rows="10" style="margin-top: 5px;"
+        onfocus="chgbackground(this)" onblur="Unchgbackground(this)"></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
