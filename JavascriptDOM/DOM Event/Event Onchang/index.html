@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onchang</title>
+</head>
+<body>
+    <label for="">เลือก ภาษาที่คุณชอบ</label>
+    <!-- Onchage เมื่อ user เลือกหรือเปลี่ยนตัวเลือก จะทำการเปลี่ยนแปลงค่า จะให้ทำอะไรต่อ
+        ในที่นี้คือ เมื่อเลือกแล้ว จะให้ทำการเรียกใช้ functions chg() ฟังก์ชั่นนี้
+        จะทำการ แสดงผลตัวเลือกที่ user ได้ทำการเลือก
+    -->
+    <select name="" id="select" onchange="chg()">
+        <option value="javascript">javascript</option>
+        <option value="python">python</option>
+        <option value="php">php</option>
+    </select>
+
+    <p id="display"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
