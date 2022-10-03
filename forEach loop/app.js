@@ -13,3 +13,6 @@ function myData(item){
     console.log(item);
 }
 
+car.forEach(myData2 = (item) =>{
+    console.log(item)
+})
