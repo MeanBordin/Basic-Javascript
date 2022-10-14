@@ -1,6 +1,7 @@
 // original
 
 const person ={
+    // poprotie
     first_name : 'Mean', 
     last_name : 'bordinsak',
 
